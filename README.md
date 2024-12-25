@@ -1,11 +1,10 @@
-# Energy Services Simulation Backend (development branch)
+Solar energy simulation
 ---
 The `backend` python module contains the necessary Object Oriented Python code needed for simulating Photo-Voltaic systems via different simulation software offerings.
 
 The backend is designed to interface with:
 
-1. NREL's python based SDK, [PySAM](https://sam.nrel.gov/software-development-kit-sdk/pysam.html), for the System Advisory Module ([SAM](https://sam.nrel.gov/)) [Photovoltaic](https://sam.nrel.gov/photovoltaic.html) module with the intent to compare against [Aurora Solar](https://aurorasolar.com/).
-
+1. NREL's python based SDK.
 ## Installation Instructions (tested on Ubuntu 22.04)
 ---
 The `backend` module is managed by the `poetry` dependency management and packaging tool.
